@@ -1,0 +1,29 @@
+.container {
+    position: relative;
+    background-image: url('/public/planets/Coruscant.bmp');
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    /* filter: blur(5px); */
+    border: 5px black solid;
+}
+
+.background {
+    background-image: url('/public/planets/Coruscant.bmp');
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    filter: blur(5px);
+    position: relative; 
+}
+
+.content {
+    z-index: 1000;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+    text-align: center;
+    font-size: 2rem;
+}
