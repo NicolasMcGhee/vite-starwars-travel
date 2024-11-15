@@ -4,7 +4,7 @@ import Coruscant from "../../../public/planets/Coruscant.bmp";
 
 export default function Bar() {
   return (
-    <div className="container">
+    <div className="Bar_container">
       <div className="content flex">
         <div>
           <h1>Coruscant</h1>

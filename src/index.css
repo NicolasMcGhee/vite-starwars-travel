@@ -73,11 +73,29 @@ button:focus-visible {
   box-sizing: border-box;
 }
 
+img {
+  width: 100%;
+}
+
+
 .flex {
   display: flex;
+}
+
+.grid {
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 3rem;
+  place-items: center;
+  margin-top: 2rem;
 }
 
 .gap {
   flex-direction: column;
   gap: 2rem;
+}
+
+.container {
+  max-width: 2000px;
 }
